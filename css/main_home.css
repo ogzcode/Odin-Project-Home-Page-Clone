@@ -1,0 +1,47 @@
+.main-home {
+    text-align: center;
+    margin-top: 48px;
+    letter-spacing: .5px;
+}
+
+.main__header {
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: var(--text-gold);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.main__text {
+    color: var(--text-color-2);
+    margin-bottom: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.last__update__link {
+    display: block;
+    color: var(--nav-link);
+}
+
+.main__view__btn {
+    margin-top: 64px;
+    padding: 16px;
+    color: white;
+    background-color: var(--get-started-btn);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main__img__box {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.main__img__box img {
+    height: auto;
+    width: 100%;
+}
