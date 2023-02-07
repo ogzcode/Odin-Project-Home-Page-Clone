@@ -1,0 +1,56 @@
+.learn__path {
+    background-color: var(--nav-link-two);
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.learn__header {
+    text-align: center;
+    color: var(--text-color-2);
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+.learn__path--box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 4rem;
+    margin-bottom: 2rem;
+}
+
+.path {
+    background-color: white;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2px;
+    width: 280px;
+}
+.path img {
+    width: 120px;
+    margin-bottom: 1rem;
+}
+
+.path p {
+    color: var(--text-color-2);
+}
+
+.path__button {
+    background-color: var(--get-started-btn);
+    color: white;
+    padding: .75rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.path__button:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 900px) {
+    .learn__header {
+        font-size: 24px;
+    }
+}
